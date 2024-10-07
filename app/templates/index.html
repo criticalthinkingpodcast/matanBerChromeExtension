@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Uploader</title>
+</head>
+<body>
+    <h1>Image Uploader</h1>
+    <p>API Token: <span id="apiToken">{{ api_token }}</span></p>
+    <input type="file" id="imageInput" accept="image/*">
+    <button onclick="uploadImage()">Upload Image</button>
+    <div id="imageContainer"></div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
